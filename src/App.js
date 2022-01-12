@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const name = 'Duy';
   const age = 18;
-  const isFemale = true;
+  const isMale = true;
   const student = {
     name: 'Easy Frontend'
   };
@@ -16,7 +16,7 @@ function App() {
         <p>
           Duy Huynh
         </p>
-        <p>Xin chao {name} - {age} </p>
+        <p>Xin chao {name} - {age} - {isMale ? 'Male' : 'Female'} </p>
       </header>
     </div>
   );
