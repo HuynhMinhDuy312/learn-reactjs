@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const name = 'Duy';
+  const age = 18;
+  const isFemale = true;
+  const student = {
+    name: 'Easy Frontend'
+  };
+  const colorList = ['red', 'green', 'blue']
   return (
     <div className="App">
       <header className="App-header">
@@ -9,14 +16,7 @@ function App() {
         <p>
           Duy Huynh
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Xin chao {name} - {age} </p>
       </header>
     </div>
   );
